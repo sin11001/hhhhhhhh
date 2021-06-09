@@ -47,6 +47,10 @@ public class Card {
     public void setValue(int value) {
         this.value = value;
     }
+
+    void setSuit(int suit) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
    
    
     
