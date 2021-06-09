@@ -45,7 +45,9 @@ public class CardTrick {
         
         cards.setValue(cardValue);
         cards.setSuit(Card.SUITS[suit-1]);
-       
+       Card card4 = new Card();
+        card4.setValue(5);
+        card4.setSuit(card4.SUITS[3]);
       boolean mvalue = false;
         for(int i=0; i<magicHand.length; i++)
         {
